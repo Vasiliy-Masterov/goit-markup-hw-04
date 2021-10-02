@@ -141,6 +141,29 @@ img {
   margin-bottom: 30px;
 }
 
+/*--Позиционирование Постоянных клиентов--*/
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.clients-item {
+  flex-basis: calc(100% / 6 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.clients-icon {
+  width: 106px;
+  height: 60px;
+}
 /*------Позиционирование Портфолио----*/
 
 .filter-list {
@@ -371,6 +394,20 @@ body {
   line-height: 1.2;
   color: var(--text-gray-color);
   text-align: center;
+}
+
+/*--------Постоянные клиенты------*/
+.clients-section {
+  background-color: var(--white-color);
+}
+
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  color: var(--thtitle-dark-grayird-color);
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 /*------------Портфолио----------*/
